@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
+    <channel>
+        <title>Traffic Scotland - Current Incidents</title>
+        <description>Current incidents on the road network e.g. accidents</description>
+        <link>https://trafficscotland.org/currentincidents/</link>
+        <language />
+        <copyright />
+        <managingEditor />
+        <webMaster />
+        <lastBuildDate>Sun, 18 Mar 2018 20:09:34 GMT</lastBuildDate>
+        <docs>https://trafficscotland.org/rss/</docs>
+        <rating />
+        <generator>Traffic Scotland | www.trafficscotland.org</generator>
+        <ttl>5</ttl>
+        <item>
+            <title>B974 Banchory to Fettercairn  - Closure</title>
+            <description>The B974 is closed between Banchory and Fettercairn due to adverse weather. </description>
+            <link>http://tscot.org/01a8251</link>
+            <georss:point>56.9431476 -2.57592</georss:point>
+            <author />
+            <comments />
+            <pubDate>Fri, 16 Mar 2018 12:23:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>A900 Forth Road Bridge - Closed to double decker buses</title>
+            <description>The A9000 Forth Road Bridge is shut to double-decker buses due to high winds currently affecting driving conditions. Road users are advised to use caution crossing.</description>
+            <link>http://tscot.org/01a8254</link>
+            <georss:point>56.0010372491015 -3.40402230620384</georss:point>
+            <author />
+            <comments />
+            <pubDate>Sat, 17 Mar 2018 12:08:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>A939 Cock Bridge - Snow gate closure</title>
+            <description>A939 is closed at the snow gate at Cock Bridge due to adverse weather conditions.</description>
+            <link>http://tscot.org/01c194543</link>
+            <georss:point>57.1646358067672 -3.22990889052095</georss:point>
+            <author />
+            <comments />
+            <pubDate>Fri, 16 Mar 2018 11:50:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>A939 Tomintoul 10 km South at Bridge of Leachd - Snow gate closure</title>
+            <description>A939 is closed at the snow gate at Tomintoul due to adverse weather conditions.</description>
+            <link>http://tscot.org/01c194544</link>
+            <georss:point>57.2181468298004 -3.265719125906</georss:point>
+            <author />
+            <comments />
+            <pubDate>Fri, 16 Mar 2018 11:50:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>M74 J12 - Minor Road Crossing - Closure</title>
+            <description>M74 Northbound between Junctions 12 - 10 is closed due to due to emergency roadworks following a road traffic incident. Motorists are advised to use alternative route and allow for longer journey times.</description>
+            <link>http://tscot.org/01c194679</link>
+            <georss:point>55.5373170198415 -3.78779868212986</georss:point>
+            <author />
+            <comments />
+            <pubDate>Sun, 18 Mar 2018 08:22:49 GMT</pubDate>
+        </item>
+        <item>
+            <title>M8 J22 - M77 - Closure</title>
+            <description>The M8 Westbound slip to the M77 Southbound is closed due to overnight roadworks.  Motorists are advised to use the signed diversion which is in place and allow extra time for their journey.</description>
+            <link>http://tscot.org/01c194698</link>
+            <georss:point>55.8501254807917 -4.29090655469399</georss:point>
+            <author />
+            <comments />
+            <pubDate>Sun, 18 Mar 2018 19:51:08 GMT</pubDate>
+        </item>
+        <item>
+            <title>M77 J1 Between Slips - Closure</title>
+            <description>The M77 Northbound is closed at Junction 1 due to essential overnight roadworks.  Motorists are advised to use the signed diversion which is in place and allow extra time for their journey.</description>
+            <link>http://tscot.org/01c194699</link>
+            <georss:point>55.8397655047868 -4.31284971617197</georss:point>
+            <author />
+            <comments />
+            <pubDate>Sun, 18 Mar 2018 20:09:34 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
