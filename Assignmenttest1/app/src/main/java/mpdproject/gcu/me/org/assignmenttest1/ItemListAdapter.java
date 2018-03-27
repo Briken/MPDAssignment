@@ -1,6 +1,7 @@
 package mpdproject.gcu.me.org.assignmenttest1;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +13,7 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 
 /**
- * Created by David Hesketh on 20/03/2018.
+ * David Hesketh Mobile Platform Development Matric No:S1437170
  */
 
 public class ItemListAdapter extends BaseAdapter
@@ -20,13 +21,17 @@ public class ItemListAdapter extends BaseAdapter
     private Context mContext;
     private LayoutInflater mInflater;
     private ArrayList<Item> mDataSource;
-
+    private int severityGreen;
+    private int severityYellow;
+    private int severityRed;
     public ItemListAdapter(Context context, ArrayList<Item> items)
     {
         mContext = context;
         mDataSource = items;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
+        severityGreen = mContext.getResources().getColor(R.color.green);
+        severityYellow = mContext.getResources().getColor(R.color.yellow);
+        severityRed = mContext.getResources().getColor(R.color.red);
     }
 
     @Override
@@ -35,7 +40,7 @@ public class ItemListAdapter extends BaseAdapter
     }
 
     @Override
-    public Object getItem(int i) {
+    public Item getItem(int i) {
         return mDataSource.get(i);
     }
 
@@ -56,7 +61,21 @@ public class ItemListAdapter extends BaseAdapter
                 convertView.findViewById(R.id.text_view_item_title);
         TextView textViewItemDescription = (TextView)
                 convertView.findViewById(R.id.text_view_item_description);
-
+        if (currentItem.workDuration != null)
+        {
+            if (currentItem.workDuration <= 7)
+            {
+                textViewItemTitle.setBackgroundColor(severityGreen);
+            }
+            if (currentItem.workDuration > 7 && currentItem.workDuration <= 14)
+            {
+                textViewItemTitle.setBackgroundColor(severityYellow);
+            }
+            if (currentItem.workDuration > 14)
+            {
+                textViewItemTitle.setBackgroundColor(severityRed);
+            }
+        }
         textViewItemTitle.setText(currentItem.GetTitle());
         textViewItemDescription.setText(currentItem.GetDescription());
 
